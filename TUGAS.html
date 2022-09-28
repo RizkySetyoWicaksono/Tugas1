@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form HTML</title>
+</head>
+<body bgcolor="grey">
+<body>
+    <hr style="width:100%;text-align:left;margin-left:0">
+	<h1>Form HTML</h1>
+    <img src="C:\Users\User\Downloads\contoh-gambar-komputer-kartun.webp" width="200" height="200" alt="photo"</body>
+
+	<hr>
+	<form action="submit.php" method="POST">
+    <fieldset>
+        <legend><b>Registration Form</b></legend>
+    <p>Name : <input type="text" name="username" /></p>
+    </form>
+
+    <p><label>Gender :</label>
+	<input type="radio" name="Gender" value="pria"> Man
+	<input type="radio" name="Gender" value="wanita"> Woman</p>
+
+    <p>Date of Birth : <input type="date" name="date" /></p>
+
+	<form action="submit.php" method="POST">
+    <p>Address : <input type="text" name="username" /></p>
+    </form>
+
+    <form method="POST" action="response2.jsp" enctype="multipart/form-data">
+
+    <P>Country :
+    <select name="My Lab">
+    <option value='indonesia'>INDONESIA</option>
+    <option value='germany'>GERMANY</option>
+    <option value='malaysia'>MALAYSIA</option>
+    <option value='australia'>AUSTRALIA</option>
+    <option value='russia'>RUSSIA</option>
+    <option value='new zealand'>NEW ZEALAND</option>
+	</select>
+	</P>
+
+    <p>Email : <input type="text" name="username" /></p>
+
+    <p>Photo : <input type="file" name="photo" /></p>
+
+    <form action="proses.php" method="get">
+    <p>Comment:
+    <textarea name="alamat" rows="8" cols="30"></textarea>
+    <input type="button" onclick="alert('Thank you for joining us!')" value="Submit"> 
+    </fieldset>
+    <hr style="width:100%;text-align:left;margin-left:0">
+
+</form>
+
+</body>
+</html>
